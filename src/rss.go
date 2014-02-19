@@ -64,6 +64,8 @@ func main() {
 		count(db)
 	case "show":
 		show(db)
+	case "add":
+		add(db,os.Args[2:])
 	}
 
 }
